@@ -18,8 +18,7 @@ class Test(unittest.TestCase):
         self.assertEqual(package_details.unpacked_size, '8.75 MB')
         self.assertEqual(package_details.weekly_downloads, '4,196,615')
         self.assertEqual(package_details.total_files, '1821')
-        
-       
+             
 if __name__ == '__main__':
     unittest.main()
     
